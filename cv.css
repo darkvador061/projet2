@@ -1,0 +1,295 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+    
+    
+    
+}
+
+
+/* côté gauche*/ 
+
+.section1{
+    width: 400px;
+    height: 1684px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #feca07;
+    border: 1px solid black;
+    border-right: none;
+    
+       
+}
+#foto{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 120px;
+    
+}
+#foto{
+    border-radius: 50%;
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+    background-color: #404040;
+    margin-top: 40px;
+    padding: -15px;
+    color: #feca07;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 40px;
+}
+.moi2{
+    display: flex;
+    justify-content: center;
+    background-color: #404040;
+    margin-top: 20px;
+    color: #feca07;
+}
+.moi{
+    height: 550px;
+}
+.loisirs1{
+    display: flex;
+    justify-content: center;
+    background-color: #404040;
+    margin-top: 250px;
+    color: #feca07;
+}
+
+.fas{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+.fab{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+/* côté droit */
+
+.section2{
+    width: 800px;
+    height: 1684px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-left: none;
+    
+    order: 1;
+}
+.titre{    
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 1.6em;
+}
+#span1{
+    color: #feca07;
+    text-decoration: none;
+}
+span{
+    text-decoration: underline #feca07;
+}
+.form{ 
+    display: flex;   
+    margin-top: 50px;
+    height: 90px;
+    margin-left: 60px; 
+    font-size: 1.2em;
+    width: 790px;
+}
+.ligne1{
+    
+    margin-top: -10px;
+    border-bottom: 2px solid #feca07;
+    margin-left: 60px;
+    width: 700px;
+}
+.date1{
+   
+    margin-left: 15px;
+    
+    margin-top: 5px;
+    width: 250px;
+}
+
+
+.descript{
+    margin-left: 340px;
+    margin-top: -47px;
+    display: flex;
+    width: 450px;
+    height: 208px;
+    flex-direction: column;
+}
+.exp{
+    width: 650px;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+.ligne2{
+    
+    margin-top: -10px;
+    border-bottom: 2px solid #feca07 ;
+    margin-left: 60px;
+    width: 700px;
+}
+.date2{
+    
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 0px;
+    
+    height: 500px;
+}
+.expe1{
+    display: flex;
+    margin-left: 340px;
+    margin-top: -500px;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+    
+}
+.expe2{
+    margin-top: -160px;
+    display: flex;
+    margin-left: 340px;
+    width: 450px;
+    flex-direction: column;
+}
+.expe3{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 340px;
+    width: 450px;
+    flex-direction: column;
+}
+.reco{
+    width: 550px;
+    font-size: 1.2em;
+    margin-left: 60px;
+}
+.ligne3{
+    margin-top: -10px;
+    border-bottom: 2px solid #feca07 ;
+    margin-left: 60px;
+    width: 700px;
+}
+.reco1{
+    margin-left: 160px;
+    width: 150px;
+    margin-top: 20px;
+}
+.reco2{
+    width: 200px;
+    margin-left: 470px;
+    margin-top: -165px;
+}
+.fas{
+    margin-left: 0px;
+    margin-right: 20px;
+    color: #feca07;
+}
+li{
+    list-style-type: none;
+}
+
+li:before{
+    content: "\25C9";
+    color: #feca07;
+} 
+.date2 p:before{
+     margin-left: 40px;
+     content: "\25CF";
+     color: #feca07;
+     
+}
+.date2 p{
+    margin-top: 170px;
+    margin-bottom: -80px;
+}
+
+@media screen and (max-width: 1332px){
+    
+    .container{
+        flex-direction: column-reverse;
+       }
+    #foto{
+        margin-left: 650px;
+        margin-top: -1610px;
+    }
+    .section1{
+        
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+        border: none;
+       
+    }
+    .contact1{
+        margin-left: 10px;
+        display: flex;
+        
+    }
+    .moi{
+        margin-top: 20px;
+        width: 30%;
+        padding-left: 10px;
+    }
+    .loisirs1{
+        margin-top: 40px;
+        
+    }
+    .section2{
+        border: none;
+        width: 100%;
+    }
+    .contact{
+        margin-left: -810px;
+        
+    }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
