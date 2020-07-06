@@ -56,6 +56,11 @@
 }
 .moi{
     height: 550px;
+    text-align: left;   
+}
+.moi p{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .loisirs1{
     display: flex;
@@ -93,6 +98,10 @@
     margin-top: 50px;
     margin-left: 60px;
     font-size: 1.6em;
+}
+.titre p{
+    margin-top: -30px;
+    margin-left: 5px;
 }
 #span1{
     color: #feca07;
@@ -260,8 +269,11 @@ li:before{
         width: 100%;
     }
     .contact{
-        margin-left: -810px;
+        margin-left: -890px;
         
+    }
+    .moi{
+        overflow-x: scroll;
     }
 }
 
