@@ -1,12 +1,9 @@
 .container{
     display: flex;
-    justify-content: center;
-
-    
-    
-    
+    justify-content: center;       
 }
 
+   
 
 /* côté gauche*/ 
 
@@ -19,16 +16,13 @@
     flex-direction: column;
     background-color: #feca07;
     border: 1px solid black;
-    border-right: none;
-    
-       
+    border-right: none;       
 }
 #foto{
     display: flex;
     margin-top: 40px;
     justify-content: center;
-    margin-left: 120px;
-    
+    margin-left: 120px;  
 }
 #foto{
     border-radius: 50%;
@@ -38,7 +32,6 @@
     justify-content: center;
     background-color: #404040;
     margin-top: 40px;
-    padding: -15px;
     color: #feca07;
 }
 .info{
@@ -56,6 +49,11 @@
 }
 .moi{
     height: 550px;
+    text-align: left;   
+}
+.moi p{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .loisirs1{
     display: flex;
@@ -94,6 +92,11 @@
     margin-left: 60px;
     font-size: 1.6em;
 }
+.titre p{
+    margin-top: -30px;
+    margin-left: 5px;
+    color: #666666;;
+}
 #span1{
     color: #feca07;
     text-decoration: none;
@@ -117,15 +120,15 @@ span{
     width: 700px;
 }
 .date1{
-   
-    margin-left: 15px;
-    
+    color: #666666;
+    margin-left: 15px; 
     margin-top: 5px;
     width: 250px;
 }
 
 
 .descript{
+    color: #666666;
     margin-left: 340px;
     margin-top: -47px;
     display: flex;
@@ -147,11 +150,10 @@ span{
     width: 700px;
 }
 .date2{
-    
+    color: #666666;
     width: 200px;
     margin-left: 15px;
     margin-top: 0px;
-    
     height: 500px;
 }
 .expe1{
@@ -161,7 +163,7 @@ span{
     flex-direction: column;
     width: 450px;
     height: 350px;
-    
+    color: #666666;
 }
 .expe2{
     margin-top: -160px;
@@ -169,6 +171,7 @@ span{
     margin-left: 340px;
     width: 450px;
     flex-direction: column;
+    color: #666666;
 }
 .expe3{
     margin-top: 50px;
@@ -176,8 +179,10 @@ span{
     margin-left: 340px;
     width: 450px;
     flex-direction: column;
+    color: #666666;
 }
 .reco{
+   margin-top: 30px;
     width: 550px;
     font-size: 1.2em;
     margin-left: 60px;
@@ -189,14 +194,16 @@ span{
     width: 700px;
 }
 .reco1{
-    margin-left: 160px;
-    width: 150px;
+    margin-left: 140px;
+    width: 170px;
     margin-top: 20px;
+    color: #666666;
 }
 .reco2{
     width: 200px;
     margin-left: 470px;
-    margin-top: -165px;
+    margin-top: -163px;
+    color: #666666;
 }
 .fas{
     margin-left: 0px;
@@ -260,8 +267,11 @@ li:before{
         width: 100%;
     }
     .contact{
-        margin-left: -810px;
+        margin-left: -890px;
         
+    }
+    .moi{
+        overflow-x: scroll;
     }
 }
 
