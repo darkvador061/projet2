@@ -256,7 +256,8 @@ li:before{
     .contact1{
         width: 100%;
         display: flex;
-        text-align: center;        
+        text-align: center; 
+        margin-top: 0;       
     }
     .info{
         display: flex;
