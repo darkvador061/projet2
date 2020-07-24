@@ -1,15 +1,11 @@
 .container{
     display: flex;
-    justify-content: center;       
+    justify-content: center; 
+
 }
-
-   
-
-/* côté gauche*/ 
-
 .section1{
     width: 400px;
-    height: 1684px;
+    
     margin-left: 0px;
     text-align: center;
     display: flex;
@@ -23,6 +19,7 @@
     margin-top: 40px;
     justify-content: center;
     margin-left: 120px;  
+    
 }
 #foto{
     border-radius: 50%;
@@ -65,29 +62,34 @@
 
 .fas{
     display: flex;
-    padding-top: 20px;
+    padding-top: 30px;
     margin-left: 40px;
 }
 .fab{
     display: flex;
-    padding-top: 30px;
-    margin-left: 40px;
+    margin-left: 40px;     
+}
+.fab, .far{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+	width: 59px;
+	height: 47px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-right: 7px;
 }
 
-/* côté droit */
+/*page de droite*/
 
-.section2{
-    width: 800px;
-    height: 1684px;
+.page2{
+    width: 800px; 
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    border-left: none;
-    
-    order: 1;
+    border-left: none;   
 }
 .titre{    
-    width: 350px;
     margin-top: 50px;
     margin-left: 60px;
     font-size: 1.6em;
@@ -101,147 +103,71 @@
     color: #feca07;
     text-decoration: none;
 }
-span{
+#dev{
     text-decoration: underline #feca07;
 }
-.form{ 
-    display: flex;   
-    margin-top: 50px;
-    height: 90px;
-    margin-left: 60px; 
-    font-size: 1.2em;
-    width: 790px;
+.section{
+    margin-bottom: 100px;
 }
-.ligne1{
-    
-    margin-top: -10px;
-    border-bottom: 2px solid #feca07;
-    margin-left: 60px;
-    width: 700px;
+.date1, .date2{
+    float: left;
+    margin-left: 50px;
+}
+.descript, .expe{
+    margin-left: 340px;
+    margin-right: 20px;
+    margin-top: 55px;
 }
 .date1{
-    color: #666666;
-    margin-left: 15px; 
-    margin-top: 5px;
-    width: 250px;
+    margin-top: 30px;
 }
-
-
-.descript{
-    color: #666666;
-    margin-left: 340px;
-    margin-top: -47px;
-    display: flex;
-    width: 450px;
-    height: 208px;
-    flex-direction: column;
+.rond2:before{
+    content: "\25C9";
+    color: #feca07;
+    list-style-type: none;
 }
-.exp{
-    width: 650px;
-    font-size: 1.2em;
-    margin-left: 60px;
-    margin-top: 130px;
+.rond1:before{
+    content: "\25CF";
+    color: #feca07;     
 }
-.ligne2{
-    
-    margin-top: -10px;
-    border-bottom: 2px solid #feca07 ;
-    margin-left: 60px;
-    width: 700px;
-}
-.date2{
-    color: #666666;
-    width: 200px;
-    margin-left: 15px;
-    margin-top: 0px;
-    height: 500px;
-}
-.expe1{
-    display: flex;
-    margin-left: 340px;
-    margin-top: -500px;
-    flex-direction: column;
-    width: 450px;
-    height: 350px;
-    color: #666666;
-    
-}
-.expe2{
-    margin-top: -160px;
-    
-    display: flex;
-    margin-left: 340px;
-    width: 450px;
-    flex-direction: column;
-    color: #666666;
-    
-}
-.expe3{
+.date2 p{
     margin-top: 50px;
-    display: flex;
-    margin-left: 340px;
-    width: 450px;
-    flex-direction: column;
-    color: #666666;
-    
+    margin-bottom: 140px;
 }
+
 .reco{
-   margin-top: 40px;
-    width: 550px;
-    font-size: 1.2em;
-    margin-left: 60px;
-}
-.ligne3{
-    margin-top: -10px;
-    border-bottom: 2px solid #feca07 ;
-    margin-left: 60px;
-    width: 700px;
-}
-.reco1{
-    margin-left: 140px;
-    width: 170px;
     margin-top: 20px;
-    color: #666666;
+}  
+.reco1{
+    float: left;
+    margin-left: 50px;
+    margin-top: 26px;
 }
 .reco2{
-    width: 200px;
-    margin-left: 470px;
-    margin-top: -163px;
-    color: #666666;
+    margin-top: 50px;
+    margin-left: 450px;
 }
 .fas{
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 20px;
     color: #feca07;
 }
-li{
-    list-style-type: none;
+hr{
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #feca07;
+    border: none;
+    height: 2px;
 }
-
-li:before{
-    content: "\25C9";
-    color: #feca07;
-} 
-.date2 p:before{
-     margin-left: 40px;
-     content: "\25CF";
-     color: #feca07;
-     
-}
-.date2 p{
-    margin-top: 170px;
-    margin-bottom: -80px;
-}
-
-@media screen and (max-width: 1332px){
+@media screen and (max-width: 1249px){
     
     .container{
         flex-direction: column-reverse;
        }
     #foto{
-        
-        margin-left: 650px;
-        margin-top: -2000px;
+      
+      margin-top: -1800px;
+      margin-left: 75%;
     }
     .section1{
         
@@ -275,22 +201,26 @@ li:before{
         margin-top: -100px;
         
     }
-    .section2{
+    .page2{
         border: none;
         width: 100%;
         height: 100%;
         flex-direction: column;
+        
     }
     .date1{
         display: flex;
         color: #666666;
-        margin-left: 250px;
+        margin-left: 50px;
         margin-top: 5px;
         width: 250px;
+    }
+    .date2 p{
+        margin-bottom: 220px;
     }    
     .descript{
         color: #080808;
-        margin-left: 300px;
+        margin-left: 250px;
         margin-top: 0px;
         display: flex;
         width: 450px;
@@ -298,65 +228,28 @@ li:before{
         flex-direction: column;
         font-size: 1.2em;
     }
-    .date2{
-        display: flex;
-        flex-direction: column;
-        color: #666666;
-        margin-left: 250px;
-        justify-content: space-between;
-        height: 600px;
-    }
-    .date2 p{
-        display: flex;
-        
-        margin-top: 290px;
-    }
-    .expe1{
-        display: flex;
-        margin-left: 300px;
-        margin-top: -550px;
-        flex-direction: column;
-        width: 450px;
-        height: 350px;
+    .expe{
         color: #080808;
-        font-size: 1.2em;
-    }
-    .expe2{
-        display: flex;
-        margin-top: -20px;
-        display: flex;
         margin-left: 300px;
+        margin-top: 40px;
+        display: flex;
         width: 450px;
         flex-direction: column;
-        color: #080808;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
-    .expe3{
-        margin-top: 100px;
-        display: flex;
-        margin-left: 300px;
-        width: 450px;
-        flex-direction: column;
-        color: #080808;
-        font-size: 1.2em;
-    }
+    
     .reco1{
-        
-        justify-content: space-evenly;
-        width: 170px;
-        margin-top: 20px;
-        color: #666666;
+        float: left;
+        margin-left: 20%;
+        margin-top: 26px;
     }
     .reco2{
-        width: 200px;
-        margin-left: 570px;
-        margin-top: -163px;
-        color: #666666;
+        margin-top: 50px;
+        margin-left: 60%;
     }
+    
+    
 }
-
- 
-
 
 
 
