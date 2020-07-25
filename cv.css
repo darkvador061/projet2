@@ -131,7 +131,9 @@
     margin-top: 50px;
     margin-bottom: 140px;
 }
-
+.date2 p h3{
+    display: inline-block;
+}
 .reco{
     margin-top: 20px;
 }  
@@ -167,8 +169,7 @@ hr{
     .titre{
         text-align: center;
     }
-    .section1{
-        
+    .section1{        
         flex-direction: column;
         width: 100%;
         flex-wrap: wrap;
@@ -215,7 +216,7 @@ hr{
     }
     .date2 p{
         margin-bottom: 220px;
-    }    
+    }
     .descript{
         color: #080808;
         margin-left: 250px;
@@ -224,7 +225,7 @@ hr{
         width: 450px;
         height: 220px;
         flex-direction: column;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .expe{
         color: #080808;
