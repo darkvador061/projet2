@@ -14,15 +14,12 @@
     border: 1px solid black;
     border-right: none;       
 }
-#foto{
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    margin-left: 120px;  
-    
-}
+
 #foto{
     border-radius: 50%;
+    margin-top: 5%;
+    float: top;
+    
 }
 .contact1{
     display: flex;
@@ -165,9 +162,10 @@ hr{
         flex-direction: column-reverse;
        }
     #foto{
-      
-      margin-top: -1800px;
-      margin-left: 75%;
+      display: none; 
+    }
+    .titre{
+        text-align: center;
     }
     .section1{
         
@@ -246,12 +244,8 @@ hr{
     .reco2{
         margin-top: 50px;
         margin-left: 60%;
-    }
-    
-    
+    }  
 }
-
-
 
 
 
